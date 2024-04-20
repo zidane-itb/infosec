@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Infosec PoC - Cheap Plugin",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://six.itb.ac.id/*"],
+      "js": ["plugin.js"]
+    }
+  ]
+
+}

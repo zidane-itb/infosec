@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Infosec PoC",
+  "version": "0.0.1",
+  "background": {
+    "scripts": ["plugin.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://six.itb.ac.id/*"],
+      "js": ["cs.js"]
+    }
+  ]
+}
