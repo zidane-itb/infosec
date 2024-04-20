@@ -1,5 +1,5 @@
-const submit_btn = document.getElementById("form_save");
-if (submit_btn) {
+const token = document.getElementById("form__token");
+if (token) {
     const csrf_token = document.getElementById("form__token");
     browser.runtime.sendMessage({csrf: csrf_token.value});
 }
