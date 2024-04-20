@@ -1,5 +1,5 @@
 browser.runtime.onMessage.addListener((message) => {
-    if (message.cookieValue) {
+    if (message.khongggg) {
         const data = {
             param: message.khongggg
         };
